@@ -30,7 +30,7 @@
         "type": "color",
         "id": "accent_color",
         "label": "Accent",
-        "default": "#ff7b00"
+        "default": "#AD141F"
       },
       {
         "type": "color",
@@ -127,7 +127,7 @@
         "type": "color",
         "id": "header_accent_color",
         "label": "Accent",
-        "default": "#222222"
+        "default": "#AD141F"
       },
       {
         "type": "header",
@@ -143,7 +143,7 @@
         "type": "color",
         "id": "footer_heading_text_color",
         "label": "Heading text",
-        "default": "#1e2d7d"
+        "default": "#000000"
       },
       {
         "type": "color",
@@ -155,7 +155,7 @@
         "type": "color",
         "id": "footer_accent_color",
         "label": "Accent",
-        "default": "#222222"
+        "default": "#000000"
       },
       {
         "type": "header",
@@ -165,7 +165,7 @@
         "type": "color",
         "id": "product_on_sale_accent",
         "label": "On sale accent",
-        "default": "#ee0000"
+        "default": "#AD141F"
       },
       {
         "type": "color",
