@@ -1,105 +1,154 @@
 {
-	"sections":{
-		"slideshow":{
-			"type":"slideshow",
-			"blocks":{
-				"slide-1":{
-					"type":"image",
-					"settings":{
-						
-					}
-				},
-				"slide-2":{
-					"type":"image",
-					"settings":{
-						
-					}
-				}
-			},
-			"block_order":[
-				"slide-1",
-				"slide-2"
-			],
-			"settings":{
-				
-			}
-		},
-		"featured-collection":{
-			"type":"featured-collection",
-			"settings":{
-				
-			}
-		},
-		"featured-products":{
-			"type":"featured-collection",
-			"settings":{
-				
-			}
-		},
-		"collection-list":{
-			"type":"collection-list",
-			"blocks":{
-				"collection-1":{
-					"type":"collection",
-					"settings":{
-						
-					}
-				},
-				"collection-2":{
-					"type":"collection",
-					"settings":{
-						
-					}
-				},
-				"collection-3":{
-					"type":"collection",
-					"settings":{
-						
-					}
-				},
-				"collection-4":{
-					"type":"collection",
-					"settings":{
-						
-					}
-				},
-				"collection-5":{
-					"type":"collection",
-					"settings":{
-						
-					}
-				},
-				"collection-6":{
-					"type":"collection",
-					"settings":{
-						
-					}
-				}
-			},
-			"block_order":[
-				"collection-1",
-				"collection-2",
-				"collection-3",
-				"collection-4",
-				"collection-5",
-				"collection-6"
-			],
-			"settings":{
-				
-			}
-		},
-		"newsletter":{
-			"type":"newsletter",
-			"settings":{
-				
-			}
-		}
-	},
-	"order":[
-		"slideshow",
-		"featured-collection",
-		"featured-products",
-		"collection-list",
-		"newsletter"
-	]
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "preserve_ratio",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "title": "Preorder",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured-products": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "title": "New releases",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-6"
+      ],
+      "settings": {
+        "title": "Featured artists",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "background": "#ffffff",
+        "text": "#000000"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collection",
+    "featured-products",
+    "collection-list",
+    "newsletter"
+  ]
 }
