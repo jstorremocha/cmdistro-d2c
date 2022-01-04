@@ -97,9 +97,9 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "",
-          "logo_max_width": 140,
-          "mobile_logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/cm_logo.png",
+          "logo_max_width": 105,
+          "mobile_logo_max_width": 75,
           "show_locale_selector": true,
           "show_currency_selector": true,
           "navigation_menu": "main-menu",

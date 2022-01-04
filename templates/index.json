@@ -50,7 +50,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "",
-        "title": "Preorder",
+        "title": "Pre Order",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -63,7 +63,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "",
-        "title": "New releases",
+        "title": "New Releases",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -127,7 +127,7 @@
         "collection-6"
       ],
       "settings": {
-        "title": "Featured artists",
+        "title": "Featured Artists",
         "link_title": "View all",
         "link": "shopify:\/\/collections",
         "round_images": true,
