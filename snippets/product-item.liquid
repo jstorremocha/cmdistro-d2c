@@ -244,7 +244,7 @@
         </a>
       {%- endif -%}
 
-      {%- if settings.show_inventory_quantity and product.template_suffix != 'pre-order' -%}
+      {%- if settings.show_inventory_quantity and product.variants.first.inventory_management != blank and product.template_suffix != 'pre-order' -%}
         {%- if product.available -%}
           {%- assign should_calculate_inventory = true -%}
 

@@ -288,7 +288,9 @@
             --------------------------------------------------------------------------------------
             {%- endcomment -%}
 
-            {%- if section.settings.show_shipping_estimator -%}
+            {%- assign items_requiring_shipping = cart.items | where: 'requires_shipping' -%}
+
+            {%- if section.settings.show_shipping_estimator and items_requiring_shipping.size > 0 -%}
               <div class="card">
                 <div class="estimate-shipping">
                   <button type="button" class="estimate-shipping__toggle" data-action="toggle-collapsible" data-collapsible-force-overflow aria-expanded="false" aria-controls="shipping-estimator">
