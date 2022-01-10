@@ -22,13 +22,13 @@
 
                 <div class="collection-item__image-wrapper {% if section.settings.round_images %}collection-item__image-wrapper--rounded{% endif %}">
                   {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800', image: collection_image -%}{%- endcapture -%}
-                  {%- assign image_url = collection_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {%- assign image_url = collection_image | image_url: width: 1, height: 1 | replace: '_1x1.', '_{width}x.' -%}
 
                   <div class="aspect-ratio" style="padding-bottom: 100%">
                     <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ collection_image.alt | escape }}">
 
                     <noscript>
-                      <img src="{{ collection_image | img_url: '450x' }}" alt="{{ collection_image.alt | escape }}">
+                      <img src="{{ collection_image | image_url: width: 450 }}" alt="{{ collection_image.alt | escape }}">
                     </noscript>
                   </div>
                 </div>

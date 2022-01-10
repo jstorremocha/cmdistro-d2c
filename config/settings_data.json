@@ -45,22 +45,22 @@
     "show_inventory_quantity": false,
     "low_inventory_threshold": 2,
     "cart_type": "drawer",
-    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_empty_button_link": "shopify://collections/all",
     "cart_show_checkout_button": true,
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": "50",
-    "social_facebook": "https:\/\/www.facebook.com\/centurymedia",
+    "social_facebook": "https://www.facebook.com/centurymedia",
     "social_twitter": "",
     "social_pinterest": "",
-    "social_instagram": "https:\/\/www.instagram.com\/centurymediarecords\/",
+    "social_instagram": "https://www.instagram.com/centurymediarecords/",
     "social_vimeo": "",
     "social_tumblr": "",
-    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCnK9PxMozTYs8ELOvgMNKFA",
+    "social_youtube": "https://www.youtube.com/channel/UCnK9PxMozTYs8ELOvgMNKFA",
     "social_linkedin": "",
     "social_snapchat": "",
     "social_fancy": "",
-    "favicon": "shopify:\/\/shop_images\/cm_logo.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/cm_logo.png",
+    "favicon": "shopify://shop_images/cm_logo.png",
+    "checkout_logo_image": "shopify://shop_images/cm_logo.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -111,7 +111,7 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/cm_logo.png",
+          "logo": "shopify://shop_images/cm_logo.png",
           "logo_max_width": 100,
           "mobile_logo_max_width": 50,
           "show_locale_selector": true,
@@ -136,28 +136,28 @@
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p><a href=\"\/pages\/my-account\" title=\"My account\">My account<\/a><\/p>"
+              "content": "<p><a href=\"/pages/my-account\" title=\"My account\">My account</a></p>"
             }
           },
           "b1ff6c53-266c-47e1-8025-b1a6d9ba73b2": {
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p><a href=\"\/pages\/terms-and-service\" title=\"Terms and service\">Terms and service<\/a><\/p><p><a href=\"\/pages\/privacy-statement\" title=\"Privacy statement\">Privacy statement<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return policy\">Return policy<\/a><\/p>"
+              "content": "<p><a href=\"/pages/terms-and-service\" title=\"Terms and service\">Terms and service</a></p><p><a href=\"/pages/privacy-statement\" title=\"Privacy statement\">Privacy statement</a></p><p><a href=\"/pages/return-policy\" title=\"Return policy\">Return policy</a></p>"
             }
           },
           "footer-0": {
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><\/p><p><a href=\"\/pages\/payment-and-shipping\" title=\"Payment and shipping\">Payment and shipping<\/a><\/p>"
+              "content": "<p><a href=\"/pages/imprint\" title=\"Imprint\">Imprint</a></p><p><a href=\"/pages/payment-and-shipping\" title=\"Payment and shipping\">Payment and shipping</a></p>"
             }
           },
           "90870819-c265-4cc2-94b0-5e40ad2810f7": {
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p><a href=\"\/pages\/about\" title=\"About\">About<\/a><\/p>"
+              "content": "<p><a href=\"/pages/about\" title=\"About\">About</a></p>"
             }
           },
           "footer-1": {
@@ -172,7 +172,7 @@
             "disabled": true,
             "settings": {
               "title": "Newsletter",
-              "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
             }
           },
           "4a5f8bdc-021f-47d6-9dc9-422f54d43095": {
@@ -198,7 +198,7 @@
           "show_locale_selector": true,
           "show_currency_selector": true,
           "show_cookie_bar": true,
-          "text": "<p>By clicking “Accept”, you agree to the storing of cookies on your device to enhance site navigation.<\/p>",
+          "text": "<p>By clicking “Accept”, you agree to the storing of cookies on your device to enhance site navigation.</p>",
           "accept_button": "Accept"
         }
       },
@@ -214,7 +214,7 @@
           "show_newsletter": true,
           "newsletter_button": "Subscribe & Save",
           "newsletter_title": "Newsletter",
-          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
         }
       },
       "popups": {
@@ -231,7 +231,7 @@
             "settings": {
               "icon": "bi-shop",
               "title": "Free delivery worldwide",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-1": {
@@ -240,7 +240,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Satisfied or refunded",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-2": {
@@ -249,7 +249,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Top-notch support",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-3": {
@@ -258,7 +258,7 @@
             "settings": {
               "icon": "bi-secure-payment",
               "title": "Secure payments",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           }
         },

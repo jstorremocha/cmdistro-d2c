@@ -5,7 +5,7 @@
     {%- assign share_url = shop.url | append: product.url | url_param_escape -%}
     {%- assign twitter_text = product.title | url_param_escape -%}
     {%- assign pinterest_description = product.description | strip_html | truncatewords: 15 | url_param_escape -%}
-    {%- assign pinterest_image = product.featured_media | img_url: '1024x' | prepend: 'https:' -%}
+    {%- assign pinterest_image = product.featured_media | image_url: width: 1024 | prepend: 'https:' -%}
 
     <ul class="social-media__item-list list--unstyled" role="list">
       <li class="social-media__item social-media__item--facebook">

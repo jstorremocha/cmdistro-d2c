@@ -129,7 +129,7 @@
       "settings": {
         "title": "Featured Artists",
         "link_title": "View all",
-        "link": "shopify:\/\/collections",
+        "link": "shopify://collections",
         "round_images": true,
         "show_collection_title": true
       }
@@ -138,7 +138,7 @@
       "type": "newsletter",
       "settings": {
         "title": "Newsletter",
-        "content": "<p>Subscribe to our newsletter!<\/p>",
+        "content": "<p>Subscribe to our newsletter!</p>",
         "background": "#ffffff",
         "text": "#666666"
       }

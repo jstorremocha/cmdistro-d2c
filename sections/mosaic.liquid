@@ -5,7 +5,7 @@
         <div class="mosaic__item">
           <a {% if block.settings.link %}href="{{ block.settings.link }}"{% endif %} id="block-{{ block.id }}" class="promo-block promo-block--{{ block.settings.content_position | replace: '_', '-' }} {% if block.settings.show_overlay %}promo-block--overlay{% endif %}" {{ block.shopify_attributes }}>
             {%- if block.settings.image -%}
-              {%- capture bgset -%}{{ block.settings.image | img_url: '400x' }} 400w, {{ block.settings.image | img_url: '600x' }} 600w, {{ block.settings.image | img_url: '800x' }} 800w, {{ block.settings.image | img_url: '1000x' }} 1000w, {{ block.settings.image | img_url: '1200x' }} 1200w{%- endcapture -%}
+              {%- capture bgset -%}{{ block.settings.image | image_url: width: 400 }} 400w, {{ block.settings.image | image_url: width: 600 }} 600w, {{ block.settings.image | image_url: width: 800 }} 800w, {{ block.settings.image | image_url: width: 1000 }} 1000w, {{ block.settings.image | image_url: width: 1200 }} 1200w{%- endcapture -%}
             {%- endif -%}
 
             <div class="promo-block__image-clip">
@@ -55,7 +55,7 @@
               <noscript>
                 <style>
                   #block-{{ block.id }} .promo-block__image-wrapper {
-                    background-image: url({{ block.settings.image | img_url: '800x' }});
+                    background-image: url({{ block.settings.image | image_url: width: 800 }});
                   }
                 </style>
               </noscript>

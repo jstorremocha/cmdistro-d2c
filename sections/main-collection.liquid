@@ -269,7 +269,7 @@
               {%- if section.settings.show_collection_image and collection.image and collection.all_products_count > 0 -%}
                 {%- if section.settings.collection_image_size == 'preserve_ratio' -%}
                   {%- capture supported_sizes -%}{%- render 'image-size', sizes: '400,500,600,700,800,900,1000, 1200, 1400, 1600', image: collection.image -%}{%- endcapture -%}
-                  {%- assign image_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {%- assign image_url = collection.image | image_url: width: 1, height: 1 | replace: '_1x1.', '_{width}x.' -%}
 
                   <div class="collection__image-wrapper collection__image-wrapper--preserve-ratio">
                     <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: collection.image.aspect_ratio }}%">
@@ -277,8 +277,8 @@
                     </div>
                   </div>
                 {%- else -%}
-                  <div class="collection__image-wrapper collection__image-wrapper--{{ section.settings.collection_image_size }}" style="background-image: url({{ collection.image | img_url: '1x1' }})">
-                    <div class="collection__image lazyload image--fade-in" data-bgset="{{ collection.image | img_url: '600x' }} 600w, {{ collection.image | img_url: '800x' }} 800w, {{ collection.image | img_url: '1000x' }} 1000w, {{ collection.image | img_url: '1200x' }} 1200w, {{ collection.image | img_url: '1500x' }} 1500w"></div>
+                  <div class="collection__image-wrapper collection__image-wrapper--{{ section.settings.collection_image_size }}" style="background-image: url({{ collection.image | image_url: width: 1, height: 1 }})">
+                    <div class="collection__image lazyload image--fade-in" data-bgset="{{ collection.image | image_url: width: 600 }} 600w, {{ collection.image | image_url: width: 800 }} 800w, {{ collection.image | image_url: width: 1000 }} 1000w, {{ collection.image | image_url: width: 1200 }} 1200w, {{ collection.image | image_url: width: 1500 }} 1500w"></div>
                   </div>
                 {%- endif -%}
               {%- endif -%}
@@ -310,7 +310,7 @@
                   <div class="collection__header {% if collection.template_suffix == 'brand' %}collection__header--brand{% endif %}">
                     {%- if section.settings.show_collection_image and collection.image and collection.all_products_count > 0 and collection.template_suffix == 'brand' -%}
                       <div class="collection__brand-logo-wrapper hidden-pocket">
-                        <div class="collection__brand-logo-image lazyload image--fade-in" data-bg="{{ collection.image | img_url: '250x' }}"></div>
+                        <div class="collection__brand-logo-image lazyload image--fade-in" data-bg="{{ collection.image | image_url: width: 250 }}"></div>
                       </div>
                     {%- endif -%}
 
@@ -318,7 +318,7 @@
                       <div class="collection__meta">
                         {%- if section.settings.show_collection_image and collection.image and collection.all_products_count > 0 and collection.template_suffix == 'brand' -%}
                           <div class="collection__brand-logo-wrapper hidden-lap-and-up">
-                            <div class="collection__brand-logo-image lazyload image--fade-in" data-bg="{{ collection.image | img_url: '250x' }}"></div>
+                            <div class="collection__brand-logo-image lazyload image--fade-in" data-bg="{{ collection.image | image_url: width: 250 }}"></div>
                           </div>
                         {%- endif -%}
 

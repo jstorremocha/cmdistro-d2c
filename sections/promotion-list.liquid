@@ -7,9 +7,9 @@
             <a {% if block.settings.button_link %}href="{{ block.settings.button_link }}"{% endif %} class="promo-block promo-block--{{ block.settings.content_position | replace: '_', '-' }} {% if block.settings.show_overlay %}promo-block--overlay{% endif %} promo-block--{{ section.settings.section_size }}">
               {%- if block.settings.image -%}
                 {%- if block.settings.stretch_image -%}
-                  {%- capture bgset -%}{{ block.settings.image | img_url: '600x' }} [--phone] | {{ block.settings.image | img_url: '800x' }} 800w, {{ block.settings.image | img_url: '1000x' }} 1000w, {{ block.settings.image | img_url: '1200x' }} 1200w{%- endcapture -%}
+                  {%- capture bgset -%}{{ block.settings.image | image_url: width: 600 }} [--phone] | {{ block.settings.image | image_url: width: 800 }} 800w, {{ block.settings.image | image_url: width: 1000 }} 1000w, {{ block.settings.image | image_url: width: 1200 }} 1200w{%- endcapture -%}
                 {%- else -%}
-                  {%- capture bgset -%}{{ block.settings.image | img_url: 'x480' }} [--phone] | {{ block.settings.image | img_url: 'x800' }}{%- endcapture -%}
+                  {%- capture bgset -%}{{ block.settings.image | image_url: height: 480 }} [--phone] | {{ block.settings.image | image_url: height: 800 }}{%- endcapture -%}
                 {%- endif -%}
 
                 <div class="promo-block__image-clip">
@@ -54,7 +54,7 @@
                 <noscript>
                   <style>
                     #block-{{ block.id }} .promo-block__image-wrapper {
-                      background-image: url({% if block.settings.stretch_image %}{{ block.settings.image | img_url: '800x' }}{% else %}{{ block.settings.image | img_url: 'x400' }}{% endif %});
+                      background-image: url({% if block.settings.stretch_image %}{{ block.settings.image | image_url: width: 800 }}{% else %}{{ block.settings.image | image_url: height: 400 }}{% endif %});
                     }
                   </style>
                 </noscript>
@@ -250,7 +250,8 @@
     {
       "category": "Text",
       "name": "Promotion blocks",
-      "settings": {},
+      "settings": {
+      },
       "blocks": [
         {
           "type": "item",

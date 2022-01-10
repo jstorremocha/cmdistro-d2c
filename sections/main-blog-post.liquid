@@ -29,13 +29,13 @@
         {%- if article.image -%}
           <div class="article__image-wrapper">
             {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900,1000,1100,1200', image: article.image -%}{%- endcapture -%}
-            {%- assign image_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            {%- assign image_url = article.image | image_url: width: 1, height: 1 | replace: '_1x1.', '_{width}x.' -%}
 
             <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: article.image.aspect_ratio }}%">
               <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ article.image.alt | escape }}">
 
               <noscript>
-                <img src="{{ article.image | img_url: '800x' }}" alt="{{ article.image.alt | escape }}">
+                <img src="{{ article.image | image_url: width: 800 }}" alt="{{ article.image.alt | escape }}">
               </noscript>
             </div>
           </div>
@@ -46,7 +46,7 @@
             {%- assign share_url = shop.url | append: article.url -%}
             {%- assign twitter_text = article.title | url_param_escape -%}
             {%- assign pinterest_description = article.excerpt_or_content | strip_html | truncatewords: 15 | url_param_escape -%}
-            {%- assign pinterest_image = article.image | img_url: 'large' | prepend: 'https:' -%}
+            {%- assign pinterest_image = article.image | image_url | prepend: 'https:' -%}
 
             <ul class="social-media__item-list list--unstyled" role="list">
               <li class="social-media__item social-media__item--facebook">
@@ -293,7 +293,7 @@
                           {%- if article.image -%}
                             <a href="{{ article.url }}" class="blog-sidebar__post-image-wrapper">
                               <div class="blog-sidebar__post-image-overflow">
-                                <img src="{{ article.image | img_url: '100x80', crop: 'center', scale: 2 }}" alt="{{ article.image.alt | escape }}" class="blog-sidebar__post-image">
+                                <img src="{{ article.image | image_url: width: 200, height: 160, crop: 'center' }}" alt="{{ article.image.alt | escape }}" class="blog-sidebar__post-image">
                               </div>
                             </a>
                           {%- endif -%}

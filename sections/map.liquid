@@ -56,7 +56,7 @@
                   </a>
                 {%- endif -%}
 
-                <div class="map__map-container map__map-container--mobile hidden-tablet-and-up lazyload" {% if section.settings.image %}data-bg="{{ section.settings.image | img_url: '600x' }}"{% endif %}>
+                <div class="map__map-container map__map-container--mobile hidden-tablet-and-up lazyload" {% if section.settings.image %}data-bg="{{ section.settings.image | image_url: width: 600 }}"{% endif %}>
                   {%- if section.settings.image == blank and section.settings.api_key == blank -%}
                     {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
                   {%- endif -%}
@@ -71,7 +71,7 @@
         {%- endfor -%}
       </div>
 
-      <div class="map__map-container map__map-container--desktop hidden-phone lazyload" {% if section.settings.image %}data-bg="{{ section.settings.image | img_url: '1200x' }}"{% endif %}>
+      <div class="map__map-container map__map-container--desktop hidden-phone lazyload" {% if section.settings.image %}data-bg="{{ section.settings.image | image_url: width: 1200 }}"{% endif %}>
         {%- if section.settings.image == blank and section.settings.api_key == blank -%}
           {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg placeholder-svg--inverted' }}
         {%- endif -%}
@@ -85,7 +85,7 @@
         <noscript>
           <style>
             #shopify-section-{{ section.id }} .map__map-container {
-              background-image: url({{ section.settings.image | img_url: '1200x' }});
+              background-image: url({{ section.settings.image | image_url: width: 1200 }});
             }
           </style>
         </noscript>
@@ -762,7 +762,8 @@
     {
       "category": "Store information",
       "name": "Map",
-      "settings": {},
+      "settings": {
+      },
       "blocks": [
         {
           "type": "store",

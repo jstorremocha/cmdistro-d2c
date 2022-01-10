@@ -4,7 +4,6 @@
       "tags": "Etiquetada \"{{ tags }}\"",
       "page": "Página {{ page }}"
     },
-
     "accessibility": {
       "skip_to_content": "Ir directamente al contenido",
       "close": "Cerrar",
@@ -13,7 +12,6 @@
       "new_window": "Abre en una nueva ventana.",
       "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas"
     },
-
     "password": {
       "enter_password": "Ingresar la contraseña",
       "password_input": "Contraseña",
@@ -26,20 +24,17 @@
       "login_link": "Conectarte",
       "follow_us": "Síguenos"
     },
-
     "pagination": {
       "previous_page": "Anterior",
       "next_page": "Siguiente",
       "go_to_page": "Navegar a la página {{page}}",
       "page_count": "Página {{current_page}} / {{pages}}"
     },
-
     "breadcrumb": {
       "title": "Navegación",
       "home": "Inicio",
       "account": "Mi cuenta"
     },
-
     "social": {
       "follow_label": "Síguenos en {{social_media}}",
       "facebook_share": "Compartir en Facebook",
@@ -47,14 +42,12 @@
       "twitter_tweet": "Tweet en Twitter",
       "email_share": "Compartir por email"
     },
-
     "popup": {
       "success": "! Te has registrado a la newsletter !",
       "email_placeholder": "Tu email",
       "subscribe": "Suscribir"
     }
   },
-
   "header": {
     "general": {
       "currency": "Moneda",
@@ -64,7 +57,6 @@
       "welcome": "Hola {{first_name}}",
       "cart": "Carrito"
     },
-
     "navigation": {
       "menu": "Menú",
       "open_menu": "Abrir menú",
@@ -72,7 +64,6 @@
       "need_help": "Necesitas ayuda?",
       "follow_us": "Siguenos"
     },
-
     "search": {
       "open_search": "Abrir buscador",
       "close_search": "Cerrar",
@@ -89,7 +80,6 @@
       "blog_posts_and_pages": "Páginas & Artículos"
     }
   },
-
   "footer": {
     "general": {
       "currency": "Moneda",
@@ -97,14 +87,12 @@
       "follow_us": "Síguenos",
       "we_accept": "Aceptamos"
     },
-
     "newsletter": {
       "success": "¡ Te has registrado a la newsletter !",
       "input": "Tu email",
       "submit": "Suscribir"
     }
   },
-
   "search": {
     "general": {
       "title": "Buscar",
@@ -129,7 +117,6 @@
       }
     }
   },
-
   "404": {
     "general": {
       "title": "Página no encontrada",
@@ -138,7 +125,6 @@
       "continue_shopping": "Haz clic aquí para seguir comprando"
     }
   },
-
   "home_page": {
     "onboarding": {
       "vendor_title": "Nombre de la marca",
@@ -153,14 +139,12 @@
       "instagram_likes": "28 likes",
       "instagram_caption": "Este es un ejemplo de título."
     },
-
     "newsletter": {
       "success": "¡ Te has registrado a la newsletter !",
       "input": "Tu email",
       "submit": "Suscribirse"
     }
   },
-
   "collection": {
     "general": {
       "all_collections": "Todas las colecciones",
@@ -190,7 +174,6 @@
       },
       "page_size": "{{page_size}} por página"
     },
-
     "filter": {
       "title": "Filtro",
       "price_filter_from": "De",
@@ -202,17 +185,14 @@
       "clear": "Limpiar",
       "view_results": "Ver resultados"
     },
-
     "sorting": {
       "title": "Ordenar por"
     },
-
     "layout": {
       "title": "Ver",
       "grid": "Mostrar productos como cuadrícula",
       "list": "Mostrar productos como lista"
     },
-
     "product": {
       "from_price_html": "Desde {{price_min}}",
       "add_to_cart": "Añadir al carrito",
@@ -233,7 +213,6 @@
       }
     }
   },
-
   "customer": {
     "general": {
       "my_account": "Mi cuenta",
@@ -243,7 +222,6 @@
       "no_orders": "Ningún pedido",
       "no_orders_button": "Haz tu primer pedido"
     },
-
     "login": {
       "login": "Conectarme a mi cuenta",
       "description": "Ingresar tu e-mail y contraseña:",
@@ -255,7 +233,6 @@
       "lost_password": "¿ Contraseña olvidada ?",
       "recover_password": "Recuperar contraseña"
     },
-
     "order": {
       "order": "Pedido",
       "order_number": "Pedido {{order_number}}",
@@ -287,7 +264,6 @@
       "no_billing_address": "No se requirió una dirección de facturación para este pedido.",
       "no_shipping_address": "No se requirió una dirección de envío para este pedido."
     },
-
     "activate_account": {
       "activate_account": "Activar cuenta",
       "description": "Ingrese una contraseña para crear su cuenta:",
@@ -296,7 +272,6 @@
       "submit": "Activar",
       "decline": "Rechazar"
     },
-
     "recover_password": {
       "recover_password": "Recuperar contraseña",
       "description": "Introduce tu email:",
@@ -306,7 +281,6 @@
       "remembered_your_password": "Recordar tu contraseña?",
       "back_to_login": "Volver para iniciar sesión "
     },
-
     "reset_password": {
       "reset_password": "Restablecer la contraseña",
       "description": "Introduzca una nueva contraseña:",
@@ -314,7 +288,6 @@
       "password_confirmation": "Confirmar contraseña",
       "submit": "Restablecer contraseña"
     },
-
     "addresses": {
       "no_addresses": "Aún no hay direcciones",
       "no_addresses_button": "Añade tu primera dirección",
@@ -337,7 +310,6 @@
       "phone": "Teléfono",
       "set_default": "Establecer como dirección principal"
     },
-
     "register": {
       "create_account": "Crear mi cuenta",
       "description": "Por favor complete la información a continuación:",
@@ -350,7 +322,6 @@
       "login": "Entrar aquí"
     }
   },
-
   "cart": {
     "general": {
       "title": "Mi carrito",
@@ -367,24 +338,21 @@
       "amount_saved_html": "¡ Has ahorrado {{amount_saved}} !",
       "free": "¡ Gratis !",
       "taxes_and_shipping_at_checkout": "Impuestos y gastos de envío calculados en la caja",
-      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\">gastos de envío<\/a> calculados en la caja",
+      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\">gastos de envío</a> calculados en la caja",
       "taxes_included_but_shipping_at_checkout": "Impuestos incluidos. Gastos de envío calculados en la caja",
-      "taxes_included_and_shipping_policy_html": "Impuestos incluidos. <a href=\"{{ link }}\">Gastos de envío<\/a> calculados en la caja",
+      "taxes_included_and_shipping_policy_html": "Impuestos incluidos. <a href=\"{{ link }}\">Gastos de envío</a> calculados en la caja",
       "total": "Total",
       "checkout": "Caja"
     },
-
     "items": {
       "decrease_quantity": "Disminuir la cantidad en 1",
       "increase_quantity": "Aumentar la cantidad en 1",
       "no_more_stock": "No queda stock",
       "remove": "Quitar"
     },
-
     "gift_wrap": {
       "price_html": "Solo {{price}}"
     },
-
     "shipping_estimator": {
       "title": "Gasto estimado de envío",
       "country": "País",
@@ -397,7 +365,6 @@
       "errors": "Hay algunos errores :"
     }
   },
-
   "product": {
     "general": {
       "previous_product": "Anterior",
@@ -419,18 +386,16 @@
       "estimate_shipping": "Gastos estimados de envío",
       "refund_policy": "Política de reembolso",
       "include_taxes": "Impuestos incluidos",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Gastos de envío<\/a> calculados en la caja",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Gastos de envío</a> calculados en la caja",
       "reviews_count": {
         "zero": "{{ count }} reseña",
         "one": "{{ count }} reseña",
         "other": "{{ count }} reseñas"
       }
     },
-
     "labels": {
       "sold_out": "Agotado"
     },
-
     "form": {
       "variant": "Variante",
       "price": "Precio",
@@ -456,7 +421,6 @@
       "added_short": "Añadido !"
     }
   },
-
   "store_availability": {
     "general": {
       "view_store_info": "Ver información de la tienda",
@@ -467,7 +431,6 @@
       "pick_up_unavailable_at": "Retiro no disponible actualmente en {{ location_name }}"
     }
   },
-
   "gift_card": {
     "issued": {
       "subtext": "¡ Aquí está tu tarjeta de regalo !",
@@ -481,7 +444,6 @@
       "add_to_apple_wallet": "Añadir a Apple Wallet"
     }
   },
-
   "blog": {
     "general": {
       "empty": "Este blog no tiene artículos.",
@@ -489,7 +451,6 @@
       "categories": "Categorías",
       "all_tag": "Todas"
     },
-
     "article": {
       "tags": "Tags :",
       "written_by": "{{author}}",
@@ -502,7 +463,6 @@
         "other": "{{count}} comentarios"
       }
     },
-
     "comments": {
       "leave_comment": "Deja un comentario",
       "name": "Nombre",
@@ -514,7 +474,6 @@
       "success_moderated": "¡ Tu comentario ha sido enviado. Será visible una vez que el dueño de la tienda lo haya aceptado !"
     }
   },
-
   "contact": {
     "form": {
       "name": "Tu nombre",
@@ -524,7 +483,6 @@
       "successfully_sent": "Tu mensaje ha sido enviado con éxito."
     }
   },
-
   "date_formats": {
     "month_day_year": "%d %B %Y",
     "short_month_day_year": "%d/%B/%Y",

@@ -28,7 +28,7 @@
       "previous_page": "Anterior",
       "next_page": "Próxima",
       "go_to_page": "Ir para a página {{page}}",
-      "page_count": "Página {{current_page}} \/ {{pages}}"
+      "page_count": "Página {{current_page}} / {{pages}}"
     },
     "breadcrumb": {
       "title": "Caminho",
@@ -242,12 +242,12 @@
       "fulfillment_status": "Status de envio",
       "back_to_account": "Voltar a conta",
       "cancelled_at": "Compra cancelada {{date}}. Motivo: {{reason}}.",
-      "fulfillment_with_url_and_number_html": "Todos os produtos foram enviados. Rastreie sua encomenda com o código {{tracking_number}} ou <a href=\"{{tracking_url}}\" target=\"_blank\">clicando aqui<\/a>.",
-      "fulfillment_with_url_html": "Todos os produtos foram enviados. Rastreie sua encomenda <a href=\"{{tracking_url}}\" target=\"_blank\">clicando aqui<\/a>.",
+      "fulfillment_with_url_and_number_html": "Todos os produtos foram enviados. Rastreie sua encomenda com o código {{tracking_number}} ou <a href=\"{{tracking_url}}\" target=\"_blank\">clicando aqui</a>.",
+      "fulfillment_with_url_html": "Todos os produtos foram enviados. Rastreie sua encomenda <a href=\"{{tracking_url}}\" target=\"_blank\">clicando aqui</a>.",
       "fulfillment_with_number_html": "Todos os produtos foram enviados. Rastreie a encomenda com o código {{tracking_number}}.",
       "fulfillment_html": "Todos os produtos foram enviados.",
-      "line_fulfillment_with_url_and_number_html": "Esse produto foi enviado. Rastreie a encomenda com o código {{tracking_number}} ou <a href=\"{{tracking_url}}\" target=\"_blank\">clicando aqui<\/a>.",
-      "line_fulfillment_with_url_html": "Esse produto foi enviado. Rastreie a encomenda <a href=\"{{tracking_url}}\" target=\"_blank\">clicando aqui<\/a>.",
+      "line_fulfillment_with_url_and_number_html": "Esse produto foi enviado. Rastreie a encomenda com o código {{tracking_number}} ou <a href=\"{{tracking_url}}\" target=\"_blank\">clicando aqui</a>.",
+      "line_fulfillment_with_url_html": "Esse produto foi enviado. Rastreie a encomenda <a href=\"{{tracking_url}}\" target=\"_blank\">clicando aqui</a>.",
       "line_fulfillment_with_number_html": "Esse produto foi enviado. Rastreie a encomenda com o código {{tracking_number}}.",
       "line_fulfillment_html": "Esse produto foi enviado.",
       "product": "Produto",
@@ -338,9 +338,9 @@
       "amount_saved_html": "Você economizou {{amount_saved}}!",
       "free": "Grátis!",
       "taxes_and_shipping_at_checkout": "Impostos e frete calculados no checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">frete<\/a> calculados no checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">frete</a> calculados no checkout",
       "taxes_included_but_shipping_at_checkout": "Impostos inclusos. Frete calculado no checkout",
-      "taxes_included_and_shipping_policy_html": "Impostos inclusos. <a href=\"{{ link }}\">Frete<\/a> calculado no checkout",
+      "taxes_included_and_shipping_policy_html": "Impostos inclusos. <a href=\"{{ link }}\">Frete</a> calculado no checkout",
       "total": "Total",
       "checkout": "Checkout"
     },
@@ -386,7 +386,7 @@
       "estimate_shipping": "Estimar frete",
       "refund_policy": "Política de reembolso",
       "include_taxes": "Taxas inclusas",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Frete calculado<\/a> no checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Frete calculado</a> no checkout",
       "reviews_count": {
         "zero": "Sem avaliações",
         "one": "{{ count }} avaliação",
