@@ -137,21 +137,21 @@
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p>My account<\/p>"
+              "content": "<p><a href=\"\/pages\/my-account\" title=\"My account\">My account<\/a><\/p>"
             }
           },
           "b1ff6c53-266c-47e1-8025-b1a6d9ba73b2": {
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p>Terms and service<\/p><p>Privacy statement<\/p><p>Return policy<\/p>"
+              "content": "<p><a href=\"\/pages\/terms-and-service\" title=\"Terms and service\">Terms and service<\/a><\/p><p><a href=\"\/pages\/privacy-statement\" title=\"Privacy statement\">Privacy statement<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return policy\">Return policy<\/a><\/p>"
             }
           },
           "footer-0": {
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p>Imprint<\/p><p>Payment and shipping<\/p>"
+              "content": "<p><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><\/p><p><a href=\"\/pages\/payment-and-shipping\" title=\"Payment and shipping\">Payment and shipping<\/a><\/p>"
             }
           },
           "90870819-c265-4cc2-94b0-5e40ad2810f7": {
