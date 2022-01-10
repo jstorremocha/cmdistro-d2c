@@ -118,39 +118,73 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "e54d6367-cb65-4131-84f4-349fc305b78c": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "content": "<p>My account<\/p>"
+            }
+          },
+          "b1ff6c53-266c-47e1-8025-b1a6d9ba73b2": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "content": "<p>Terms and service<\/p><p>Privacy statement<\/p><p>Return policy<\/p>"
+            }
+          },
           "footer-0": {
             "type": "text",
             "settings": {
-              "title": "About the shop",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              "title": "",
+              "content": "<p>Imprint<\/p><p>Payment and shipping<\/p>"
+            }
+          },
+          "90870819-c265-4cc2-94b0-5e40ad2810f7": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "content": "<p>About<\/p>"
             }
           },
           "footer-1": {
             "type": "links",
+            "disabled": true,
             "settings": {
               "menu": "footer"
             }
           },
           "footer-2": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "title": "Newsletter",
               "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
             }
+          },
+          "4a5f8bdc-021f-47d6-9dc9-422f54d43095": {
+            "type": "links",
+            "disabled": true,
+            "settings": {
+              "menu": ""
+            }
           }
         },
         "block_order": [
+          "e54d6367-cb65-4131-84f4-349fc305b78c",
+          "b1ff6c53-266c-47e1-8025-b1a6d9ba73b2",
           "footer-0",
+          "90870819-c265-4cc2-94b0-5e40ad2810f7",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "4a5f8bdc-021f-47d6-9dc9-422f54d43095"
         ],
         "settings": {
           "show_social_media": true,
           "show_payment_icons": true,
           "show_locale_selector": true,
           "show_currency_selector": true,
-          "show_cookie_bar": false,
-          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
+          "show_cookie_bar": true,
+          "text": "<p>By clicking “Accept”, you agree to the storing of cookies on your device to enhance site navigation.<\/p>",
           "accept_button": "Accept"
         }
       },
