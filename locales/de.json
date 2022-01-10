@@ -28,7 +28,7 @@
       "previous_page": "Vorherige Seite",
       "next_page": "Nächste Seite",
       "go_to_page": "Gehe zu Seite {{page}}",
-      "page_count": "Seite {{current_page}} / {{pages}}"
+      "page_count": "Seite {{current_page}} \/ {{pages}}"
     },
     "breadcrumb": {
       "title": "Pfad",
@@ -53,7 +53,7 @@
       "currency": "Währung",
       "language": "Sprache",
       "account": "Konto",
-      "login": "Einloggen / Registrieren",
+      "login": "Einloggen \/ Registrieren",
       "welcome": "Hallo {{first_name}}",
       "cart": "Warenkorb"
     },
@@ -242,12 +242,12 @@
       "fulfillment_status": "Lieferstatus",
       "back_to_account": "Zurück zum Konto",
       "cancelled_at": "Bestellung wurde storniert am {{date}}. Grund: {{reason}}.",
-      "fulfillment_with_url_and_number_html": "Alle Prudukte wurden versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}} oder <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier</a>.",
-      "fulfillment_with_url_html": "Alle Prudukte wurden versandt. Zum Verfolgen der Lieferung <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier</a>.",
+      "fulfillment_with_url_and_number_html": "Alle Prudukte wurden versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}} oder <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier<\/a>.",
+      "fulfillment_with_url_html": "Alle Prudukte wurden versandt. Zum Verfolgen der Lieferung <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier<\/a>.",
       "fulfillment_with_number_html": "Alle Prudukte wurden versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}}.",
       "fulfillment_html": "Alle Prudukte wurden versandt.",
-      "line_fulfillment_with_url_and_number_html": "Dieses Prudukt wurde versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}} oder <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier</a>.",
-      "line_fulfillment_with_url_html": "Dieses Prudukt wurde versandt. Zum Verfolgen der Lieferung <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier</a>.",
+      "line_fulfillment_with_url_and_number_html": "Dieses Prudukt wurde versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}} oder <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier<\/a>.",
+      "line_fulfillment_with_url_html": "Dieses Prudukt wurde versandt. Zum Verfolgen der Lieferung <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier<\/a>.",
       "line_fulfillment_with_number_html": "Dieses Prudukt wurde versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}}.",
       "line_fulfillment_html": "Dieses Prudukt wurde versandt.",
       "product": "Produkt",
@@ -338,9 +338,9 @@
       "amount_saved_html": "Du sparst {{amount_saved}}!",
       "free": "Gratis!",
       "taxes_and_shipping_at_checkout": "Steuern und Versand werden während des Checkout berechnet",
-      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand</a> werden beim Checkout berechnet",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand<\/a> werden beim Checkout berechnet",
       "taxes_included_but_shipping_at_checkout": "Steuern inklusive. Versand wird beim Checkout berechnet",
-      "taxes_included_and_shipping_policy_html": "Steuern inklusive. <a href=\"{{ link }}\">Versand</a> wird beim Checkout berechnet",
+      "taxes_included_and_shipping_policy_html": "Steuern inklusive. <a href=\"{{ link }}\">Versand<\/a> wird beim Checkout berechnet",
       "total": "Summe",
       "checkout": "Kasse"
     },
@@ -386,7 +386,7 @@
       "estimate_shipping": "Versandkosten berechnen",
       "refund_policy": "Rückerstattungsrichtlinie",
       "include_taxes": "inkl. MwSt.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Versandkosten</a> werden im Checkout berechnet.",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Versandkosten<\/a> werden im Checkout berechnet.",
       "reviews_count": {
         "zero": "Keine Bewertungen",
         "one": "{{ count }} Bewertungen",

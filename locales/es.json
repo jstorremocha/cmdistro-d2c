@@ -28,7 +28,7 @@
       "previous_page": "Anterior",
       "next_page": "Siguiente",
       "go_to_page": "Navegar a la página {{page}}",
-      "page_count": "Página {{current_page}} / {{pages}}"
+      "page_count": "Página {{current_page}} \/ {{pages}}"
     },
     "breadcrumb": {
       "title": "Navegación",
@@ -242,12 +242,12 @@
       "fulfillment_status": "Estado de la preparación",
       "back_to_account": "Volver à la cuenta",
       "cancelled_at": "Pedido cancelado el {{date}}. Razón: {{reason}}.",
-      "fulfillment_with_url_and_number_html": "Todos los productos han sido enviados. Sigue el envío con el número {{tracking_number}} o haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí</a>.",
-      "fulfillment_with_url_html": "Todos los productos han sido enviados. Sigue el envío haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí</a>.",
+      "fulfillment_with_url_and_number_html": "Todos los productos han sido enviados. Sigue el envío con el número {{tracking_number}} o haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí<\/a>.",
+      "fulfillment_with_url_html": "Todos los productos han sido enviados. Sigue el envío haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí<\/a>.",
       "fulfillment_with_number_html": "Todos los productos han sido enviados. Sigue tu pedido con le número {{tracking_number}}.",
       "fulfillment_html": "Todos tus productos han sido enviados.",
-      "line_fulfillment_with_url_and_number_html": "Este producto ha sido enviado. Sigue el envio con el número {{tracking_number}} o haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí</a>.",
-      "line_fulfillment_with_url_html": "Este producto ha sido enviado. Sigue el envío haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí</a>.",
+      "line_fulfillment_with_url_and_number_html": "Este producto ha sido enviado. Sigue el envio con el número {{tracking_number}} o haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí<\/a>.",
+      "line_fulfillment_with_url_html": "Este producto ha sido enviado. Sigue el envío haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí<\/a>.",
       "line_fulfillment_with_number_html": "Este producto ha sido enviado. Sigue tu pedido con le número {{tracking_number}}.",
       "line_fulfillment_html": "Este producto ha sido enviado.",
       "product": "Producto",
@@ -338,9 +338,9 @@
       "amount_saved_html": "¡ Has ahorrado {{amount_saved}} !",
       "free": "¡ Gratis !",
       "taxes_and_shipping_at_checkout": "Impuestos y gastos de envío calculados en la caja",
-      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\">gastos de envío</a> calculados en la caja",
+      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\">gastos de envío<\/a> calculados en la caja",
       "taxes_included_but_shipping_at_checkout": "Impuestos incluidos. Gastos de envío calculados en la caja",
-      "taxes_included_and_shipping_policy_html": "Impuestos incluidos. <a href=\"{{ link }}\">Gastos de envío</a> calculados en la caja",
+      "taxes_included_and_shipping_policy_html": "Impuestos incluidos. <a href=\"{{ link }}\">Gastos de envío<\/a> calculados en la caja",
       "total": "Total",
       "checkout": "Caja"
     },
@@ -386,7 +386,7 @@
       "estimate_shipping": "Gastos estimados de envío",
       "refund_policy": "Política de reembolso",
       "include_taxes": "Impuestos incluidos",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Gastos de envío</a> calculados en la caja",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Gastos de envío<\/a> calculados en la caja",
       "reviews_count": {
         "zero": "{{ count }} reseña",
         "one": "{{ count }} reseña",
@@ -485,7 +485,7 @@
   },
   "date_formats": {
     "month_day_year": "%d %B %Y",
-    "short_month_day_year": "%d/%B/%Y",
+    "short_month_day_year": "%d\/%B\/%Y",
     "month_day_year_time": "%d %B %Y, %I:%M"
   }
 }
