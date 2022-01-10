@@ -81,6 +81,20 @@
         "blocks": {
           "dedfb528-27d0-4274-9e5b-c7cdb69f9cdd": {
             "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "menu_item": "Account",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          },
+          "41da7530-7f1e-4cc8-b331-50f3bcf6fa07": {
+            "type": "mega_menu",
+            "disabled": true,
             "settings": {
               "menu_item": "",
               "image_1_heading": "Your image",
@@ -93,7 +107,8 @@
           }
         },
         "block_order": [
-          "dedfb528-27d0-4274-9e5b-c7cdb69f9cdd"
+          "dedfb528-27d0-4274-9e5b-c7cdb69f9cdd",
+          "41da7530-7f1e-4cc8-b331-50f3bcf6fa07"
         ],
         "settings": {
           "enable_sticky_header": true,
@@ -213,14 +228,16 @@
         "blocks": {
           "static-text-with-icons-0": {
             "type": "item",
+            "disabled": true,
             "settings": {
-              "icon": "bi-delivery",
+              "icon": "bi-shop",
               "title": "Free delivery worldwide",
               "content": "<p>Short content about your store<\/p>"
             }
           },
           "static-text-with-icons-1": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "bi-returns",
               "title": "Satisfied or refunded",
@@ -229,6 +246,7 @@
           },
           "static-text-with-icons-2": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "bi-customer-support",
               "title": "Top-notch support",
@@ -237,6 +255,7 @@
           },
           "static-text-with-icons-3": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "bi-secure-payment",
               "title": "Secure payments",
