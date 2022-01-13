@@ -34,13 +34,20 @@
           "settings": {
             "display_mode": "show_all"
           }
+        },
+        "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Release Datum: {{ product.metafields.sme.street_date | metafield_tag }}<\/p>"
+          }
         }
       },
       "block_order": [
         "product_meta",
         "variant_selector",
         "buy_buttons",
-        "description"
+        "description",
+        "abfdae60-cfb6-47c4-9892-9c6d5db777f5"
       ],
       "settings": {
         "image_size": "small",
