@@ -269,7 +269,7 @@
               {%- if section.settings.show_collection_image and collection.image and collection.all_products_count > 0 -%}
                 {%- if section.settings.collection_image_size == 'preserve_ratio' -%}
                   {%- capture supported_sizes -%}{%- render 'image-size', sizes: '400,500,600,700,800,900,1000, 1200, 1400, 1600', image: collection.image -%}{%- endcapture -%}
-                  {%- assign image_url = collection.image | image_url: width: 1, height: 1 | replace: '_1x1.', '_{width}x.' -%}
+                  {%- assign image_url = collection.image | image_url: width: 300, height: 300 | replace: '_1x1.', '_{width}x.' -%}
 
                   <div class="collection__image-wrapper collection__image-wrapper--preserve-ratio">
                     <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: collection.image.aspect_ratio }}%">
@@ -277,7 +277,7 @@
                     </div>
                   </div>
                 {%- else -%}
-                  <div class="collection__image-wrapper collection__image-wrapper--{{ section.settings.collection_image_size }}" style="background-image: url({{ collection.image | image_url: width: 1, height: 1 }})">
+                  <div class="collection__image-wrapper collection__image-wrapper--{{ section.settings.collection_image_size }}" style="background-image: url({{ collection.image | image_url: width: 300, height: 300 }})">
                     <div class="collection__image lazyload image--fade-in" data-bgset="{{ collection.image | image_url: width: 600 }} 600w, {{ collection.image | image_url: width: 800 }} 800w, {{ collection.image | image_url: width: 1000 }} 1000w, {{ collection.image | image_url: width: 1200 }} 1200w, {{ collection.image | image_url: width: 1500 }} 1500w"></div>
                   </div>
                 {%- endif -%}

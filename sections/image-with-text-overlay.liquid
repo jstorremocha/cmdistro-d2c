@@ -8,7 +8,7 @@
 <header class="page__header page__header--stack page__header--centered page__header--image {% if section.settings.show_image_overlay %}page__header--overlay{% endif %} {% if section.settings.image_edge_to_edge %}page__header--edge2edge{% endif %}">
   {%- if section.settings.image != blank -%}
     {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000', image: section.settings.image -%}{%- endcapture -%}
-    {%- assign image_url = section.settings.image | image_url: width: 1, height: 1 | replace: '_1x1.', '_{width}x.' -%}
+    {%- assign image_url = section.settings.image | image_url: width: 300, height: 300 | replace: '_1x1.', '_{width}x.' -%}
 
     <img data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ section.settings.image.alt | escape }}" class="lazyload image--fade-in page__header-image">
   {%- else -%}
