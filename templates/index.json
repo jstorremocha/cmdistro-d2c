@@ -79,6 +79,7 @@
           "type": "collection",
           "settings": {
             "collection": "angelus-apatrida",
+            "image": "shopify:\/\/shop_images\/ang_apt.jpg",
             "link": ""
           }
         },
