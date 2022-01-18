@@ -79,14 +79,6 @@
           "type": "collection",
           "settings": {
             "collection": "angelus-apatrida",
-            "image": "shopify:\/\/shop_images\/ang_apt.jpg",
-            "link": ""
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "wiegedood",
             "link": ""
           }
         },
@@ -97,35 +89,42 @@
             "link": ""
           }
         },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
         "collection-5": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "dark-tranquillity",
+            "link": ""
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "insomnium",
             "link": ""
           }
         },
         "collection-6": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "napalm-death",
+            "link": ""
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "wiegedood",
             "link": ""
           }
         }
       },
       "block_order": [
         "collection-2",
-        "collection-1",
         "collection-3",
-        "collection-4",
         "collection-5",
-        "collection-6"
+        "collection-4",
+        "collection-6",
+        "collection-1"
       ],
       "settings": {
         "title": "Featured Artists",
