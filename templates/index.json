@@ -75,17 +75,17 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "angelus-apatrida",
+            "link": ""
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
             "collection": "wiegedood",
-            "link": ""
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
             "link": ""
           }
         },
@@ -119,8 +119,8 @@
         }
       },
       "block_order": [
-        "collection-1",
         "collection-2",
+        "collection-1",
         "collection-3",
         "collection-4",
         "collection-5",
