@@ -38,7 +38,7 @@
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
           "type": "text",
           "settings": {
-            "content": "<p>Release Datum: {{ product.metafields.sme.street_date | metafield_tag }}<\/p>"
+            "content": "<p>Release date: {{ product.metafields.sme.street_date | metafield_tag }}<\/p>"
           }
         }
       },
