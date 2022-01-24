@@ -7,7 +7,7 @@
           "type": "product_meta",
           "settings": {
             "show_vendor": true,
-            "show_sku": true,
+            "show_sku": false,
             "show_reviews_badge": false,
             "show_share_buttons": true
           }
@@ -35,6 +35,12 @@
             "display_mode": "show_all"
           }
         },
+        "31335ddd-c1ea-40e0-a1af-6a2e064faae3": {
+          "type": "text",
+          "settings": {
+            "content": "<p>{{ product.metafields.sme.release_name.value }}<\/p>"
+          }
+        },
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
           "type": "text",
           "settings": {
@@ -47,6 +53,7 @@
         "variant_selector",
         "buy_buttons",
         "description",
+        "31335ddd-c1ea-40e0-a1af-6a2e064faae3",
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5"
       ],
       "settings": {
