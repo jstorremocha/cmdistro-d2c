@@ -50,7 +50,7 @@
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878": {
           "type": "text",
           "settings": {
-            "content": "<p>{{ product.metafields.sme.distribution_number.value }}<\/p>"
+            "content": "<p>Dist. number: {{ product.metafields.sme.distribution_number.value }}<\/p>"
           }
         }
       },
