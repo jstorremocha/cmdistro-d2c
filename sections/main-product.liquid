@@ -41,6 +41,10 @@
             <li class="breadcrumb__item">
               <span class="breadcrumb__link" aria-current="page">{{ product.title | truncate: 40 }}</span>
             </li>
+
+            <li class="breadcrumb__item">
+              <span class="breadcrumb__link" aria-current="page">{{ variant.sku | truncate: 40 }}</span>
+            </li>
           </ol>
         </nav>
 
@@ -648,6 +652,11 @@
           "type": "text",
           "id": "title",
           "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "sku",
+          "label": "SKU"
         },
         {
           "type": "liquid",
