@@ -47,6 +47,12 @@
             "content": "<p>Release date: {{ product.metafields.sme.street_date | metafield_tag }}<\/p>"
           }
         },
+        "8402b46b-4472-4357-9d09-3c06f4b0a10c": {
+          "type": "text",
+          "settings": {
+            "content": "<p>{{ product.metafields.sme.additional_information | metafield_tag }}<\/p>"
+          }
+        },
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878": {
           "type": "text",
           "settings": {
@@ -61,6 +67,7 @@
         "description",
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3",
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5",
+        "8402b46b-4472-4357-9d09-3c06f4b0a10c",
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878"
       ],
       "settings": {
