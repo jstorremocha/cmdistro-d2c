@@ -62,7 +62,7 @@
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b": {
           "type": "text",
           "settings": {
-            "content": "<p>FSK: {{ product.metafields.sme.fsk.value }}<\/p>"
+            "content": "{{ product.metafields.sme.fsk ? <p>FSK: {{ product.metafields.sme.fsk.value }}<\/p> : '' }} "
           }
         },
         "2e75b2af-c1ad-445e-9263-9bb1a032d880": {
