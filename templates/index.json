@@ -23,8 +23,9 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
+            "image": "shopify:\/\/shop_images\/cm_test.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 28,
             "text_color": "#ffffff",
             "title": "Slide title",
             "content": "Tell your story",
@@ -42,7 +43,7 @@
       ],
       "settings": {
         "edge_to_edge": false,
-        "section_size": "preserve_ratio",
+        "section_size": "small",
         "carousel_effect": "slide",
         "autoplay": true,
         "cycle_speed": 5
