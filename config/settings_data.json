@@ -143,7 +143,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p><a href=\"\/pages\/terms-and-conditions\" title=\"Terms and Conditions\">Terms and Conditions<\/a><\/p><p><a href=\"\/pages\/privacy-policy\" title=\"Privacy Statement\">Privacy Statement<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return Policy\">Return Policy<\/a><\/p>"
+              "content": "<p><a href=\"\/pages\/payment-and-shipping\" title=\"Payment and Shipping\">Payment and Shipping<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return Policy\">Return Policy<\/a><\/p>"
             }
           },
           "footer-0": {
