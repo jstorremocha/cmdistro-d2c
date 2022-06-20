@@ -131,7 +131,7 @@
         "title": "Featured Artists",
         "link_title": "View all",
         "link": "",
-        "round_images": true,
+        "round_images": false,
         "show_collection_title": true
       }
     },
