@@ -65,10 +65,10 @@
       "settings": {
         "collection": "new-releases",
         "title": "New Releases",
-        "products_count": 12,
+        "products_count": 5,
         "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
+        "stack_products": true,
+        "show_quick_buy": true,
         "link_title": "View all",
         "link_url": ""
       }
