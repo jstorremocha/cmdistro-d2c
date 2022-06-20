@@ -913,7 +913,7 @@ html {
 
 @media screen and (min-width: 641px) {
   html {
-    font-size: calc(var(--base-text-font-size) + 2px);
+    font-size: calc(var(--base-text-font-size) + 6px);
   }
 }
 
