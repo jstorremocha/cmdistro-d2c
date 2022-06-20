@@ -28,7 +28,7 @@
     "product_label_1_background": "#3f6ab1",
     "product_label_2_background": "#8a44ae",
     "product_star_color": "#ffbd00",
-    "base_text_font_size": 15,
+    "base_text_font_size": 16,
     "heading_font": "montserrat_n7",
     "text_font": "montserrat_n4",
     "underline_links": true,
@@ -112,7 +112,7 @@
         "settings": {
           "enable_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/cm_logo.png",
-          "logo_max_width": 100,
+          "logo_max_width": 90,
           "mobile_logo_max_width": 50,
           "show_locale_selector": true,
           "show_currency_selector": true,
@@ -143,21 +143,21 @@
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p><a href=\"\/pages\/payment-and-shipping\" title=\"Payment and Shipping\">Payment and Shipping<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return Policy\">Return Policy<\/a><\/p>"
+              "content": "<p><a href=\"\/pages\/terms-and-service\" title=\"Terms and service\">Terms and service<\/a><\/p><p><a href=\"\/pages\/privacy-statement\" title=\"Privacy statement\">Privacy statement<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return policy\">Return policy<\/a><\/p>"
             }
           },
           "footer-0": {
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p><a href=\"\/pages\/terms-and-conditions\" title=\"Terms and Conditions\">Terms and Conditions<br\/><\/a><a href=\"\/pages\/privacy-policy\" title=\"Privacy\">Privacy<\/a><\/p>"
+              "content": "<p><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><\/p><p><a href=\"\/pages\/payment-and-shipping\" title=\"Payment and shipping\">Payment and shipping<\/a><\/p>"
             }
           },
           "90870819-c265-4cc2-94b0-5e40ad2810f7": {
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p><a href=\"\/pages\/about\" title=\"About\">About<br\/><\/a><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><\/p>"
+              "content": "<p><a href=\"\/pages\/about\" title=\"About\">About<\/a><\/p>"
             }
           },
           "footer-1": {
