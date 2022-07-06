@@ -53,16 +53,10 @@
             "content": "<p>Dist. number: {{ product.metafields.sme.distribution_number.value }}<\/p>"
           }
         },
-        "8402b46b-4472-4357-9d09-3c06f4b0a10c": {
-          "type": "text",
-          "settings": {
-            "content": "<p>{{ product.metafields.sme.additional_information | metafield_tag }}<\/p>"
-          }
-        },
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b": {
           "type": "text",
           "settings": {
-            "content": "{{ product.metafields.sme.fsk ? <p>FSK: {{ product.metafields.sme.fsk.value }}<\/p> : '' }} "
+            "content": "<p>FSK: {{ product.metafields.sme.fsk.value }}<\/p>"
           }
         },
         "2e75b2af-c1ad-445e-9263-9bb1a032d880": {
@@ -80,7 +74,6 @@
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3",
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5",
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878",
-        "8402b46b-4472-4357-9d09-3c06f4b0a10c",
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b",
         "2e75b2af-c1ad-445e-9263-9bb1a032d880"
       ],
