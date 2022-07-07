@@ -78,7 +78,6 @@
       "blocks": {
         "collection-2": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "angelus-apatrida",
             "link": ""
@@ -86,7 +85,6 @@
         },
         "collection-3": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "at-the-gates",
             "link": ""
@@ -94,7 +92,6 @@
         },
         "collection-5": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "dark-tranquillity",
             "link": ""
@@ -102,7 +99,6 @@
         },
         "collection-4": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "insomnium",
             "link": ""
@@ -110,7 +106,6 @@
         },
         "collection-6": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "napalm-death",
             "link": ""
@@ -118,7 +113,6 @@
         },
         "collection-1": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "omnium-gatherum",
             "link": ""
