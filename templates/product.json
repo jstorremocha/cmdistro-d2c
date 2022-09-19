@@ -37,6 +37,7 @@
         },
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<p>{{ product.metafields.sme.release_name.value }}<\/p>"
           }
