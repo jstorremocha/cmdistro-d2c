@@ -292,6 +292,16 @@
           "linked_link": ""
         }
       },
+      "14506125106423828829": {
+        "type": "shopify:\/\/apps\/lyrian-coming-soon-page\/blocks\/app-embed-head\/eb082e11-598f-4a9a-9c18-68b5cf2ac578",
+        "disabled": false,
+        "settings": {
+          "coming_soon_template": "Template-5",
+          "logo_image": "shopify:\/\/shop_images\/cm_logo.png",
+          "logo_size": 220,
+          "cs_bg_checkbox": true
+        }
+      },
       "12729028486393027794": {
         "type": "shopify:\/\/apps\/lyrian-coming-soon-page\/blocks\/app-embed-body\/eb082e11-598f-4a9a-9c18-68b5cf2ac578",
         "disabled": false,
@@ -306,17 +316,7 @@
           "counter_time": "10:00",
           "counter_font_size": "45px",
           "counter_label_font_size": "22px",
-          "cs_counter_font": "quattrocento_n7"
-        }
-      },
-      "14506125106423828829": {
-        "type": "shopify:\/\/apps\/lyrian-coming-soon-page\/blocks\/app-embed-head\/eb082e11-598f-4a9a-9c18-68b5cf2ac578",
-        "disabled": false,
-        "settings": {
-          "coming_soon_template": "Template-5",
-          "logo_image": "shopify:\/\/shop_images\/cm_logo.png",
-          "logo_size": 220,
-          "cs_bg_checkbox": true
+          "cs_counter_font": "anonymous_pro_n4"
         }
       }
     }
