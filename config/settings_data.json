@@ -278,33 +278,9 @@
 
     ],
     "blocks": {
-      "14506125106423828829": {
-        "type": "shopify:\/\/apps\/lyrian-coming-soon-page\/blocks\/app-embed-head\/eb082e11-598f-4a9a-9c18-68b5cf2ac578",
-        "disabled": false,
-        "settings": {
-          "coming_soon_template": "Template-5",
-          "logo_image": "shopify:\/\/shop_images\/cm_logo.png",
-          "logo_size": 220,
-          "cs_bg_checkbox": true
-        }
-      },
-      "13922174930081581447": {
-        "type": "shopify:\/\/apps\/lyrian-coming-soon-page\/blocks\/app-embed-footer\/eb082e11-598f-4a9a-9c18-68b5cf2ac578",
-        "disabled": false,
-        "settings": {
-          "enable_footer": true,
-          "copyright_text": "© All right reserved 2022",
-          "facebook_link": "https:\/\/www.facebook.com\/centurymedia",
-          "insta_link": "https:\/\/www.instagram.com\/centurymediarecords\/",
-          "twitter_link": "",
-          "youtube_link": "https:\/\/www.youtube.com\/channel\/UCnK9PxMozTYs8ELOvgMNKFA",
-          "pinterest_link": "",
-          "linked_link": ""
-        }
-      },
       "12729028486393027794": {
         "type": "shopify:\/\/apps\/lyrian-coming-soon-page\/blocks\/app-embed-body\/eb082e11-598f-4a9a-9c18-68b5cf2ac578",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "cs_title": "",
           "cs_title_size": "50px",
@@ -317,6 +293,30 @@
           "counter_font_size": "45px",
           "counter_label_font_size": "22px",
           "cs_counter_font": "montserrat_n4"
+        }
+      },
+      "14506125106423828829": {
+        "type": "shopify:\/\/apps\/lyrian-coming-soon-page\/blocks\/app-embed-head\/eb082e11-598f-4a9a-9c18-68b5cf2ac578",
+        "disabled": true,
+        "settings": {
+          "coming_soon_template": "Template-5",
+          "logo_image": "shopify:\/\/shop_images\/cm_logo.png",
+          "logo_size": 220,
+          "cs_bg_checkbox": true
+        }
+      },
+      "13922174930081581447": {
+        "type": "shopify:\/\/apps\/lyrian-coming-soon-page\/blocks\/app-embed-footer\/eb082e11-598f-4a9a-9c18-68b5cf2ac578",
+        "disabled": true,
+        "settings": {
+          "enable_footer": true,
+          "copyright_text": "© All right reserved 2022",
+          "facebook_link": "https:\/\/www.facebook.com\/centurymedia",
+          "insta_link": "https:\/\/www.instagram.com\/centurymediarecords\/",
+          "twitter_link": "",
+          "youtube_link": "https:\/\/www.youtube.com\/channel\/UCnK9PxMozTYs8ELOvgMNKFA",
+          "pinterest_link": "",
+          "linked_link": ""
         }
       }
     }
