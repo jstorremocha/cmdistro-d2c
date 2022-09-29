@@ -19,61 +19,44 @@
 
         <div class="container container--extra-narrow">
           <div class="announcement-bar__newsletter-inner">
-            <form id="cmdistro-de-website-newsletter-signup">
-			<input type="hidden" name="js_url" id="js_url" value="https://subs.sonymusicfans.com/submit">
-			<input type="hidden" name="ae_segment_id" id="ae_segment_id" value="1700057">
-			<input type="hidden" name="ae_brand_id" id="ae_brand_id" value="3447671">
-			<input type="hidden" name="ae_activities" id="ae_activities" value='{"actions":{"formsubmission":98131,"secondaryformsubmission":0},"mailing_list_optins":{"a0S2400000NgsDAEAZ":98132}}'>
-			<input type="hidden" name="ae" id="ae" value="519452a447eb9041d9c36f2c39d411d9f8a2f6f5acf47be68195a347f7032abe">
-			<input type="hidden" name="form" value="218351">
-			<!-- Form Fields -->
-			<div class="form-group" data-validation="Enter a valid email address">
-				<label for="field_email_address">
-					Email Address
-				</label>
-				<input class="form-control" id="field_email_address" name="field_email_address" type="text">
-			</div>
-				<div class="input-group hidden">
-			<div class="checkbox">
-				<label for="default_mailing_list">
-					<input type="hidden" id="default_mailing_list" name="default_mailing_list" value="a0S2400000NgsDAEAZ">
-					<p>I'd like to subscribe to the CMDistro.de Newsletter newsletter</p>				</label>
-			</div>
-		</div>
-						<!-- Submit Button -->
-			<button type="submit" class="btn btn-default">SUBSCRIBE</button>
-		</form>
-		<!-- jQuery CDN -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-		<!-- Campaign JS Code -->
-		<script>
-		jQuery(document).ready(function ($) {
-			$("#cmdistro-de-website-newsletter-signup").on("submit", function (e) {
-				// Prevent default browser actions on form submission.
-				e.preventDefault();
-				// Get all the form user submitted data and get it ready to be sent.
-				var data = $(this).serialize();
-				// POST all the data to the SMF submission endpoint URL.
-				$.ajax({
-					type: "POST",
-					url: "https://subs.sonymusicfans.com/submit",
-					dataType: "json",
-					data: data,
-					xhrFields: {
-						withCredentials: false
-					},
-					success: function (data) {
-						// Do things on successful submission.
-						alert("Submitted!");
-					},
-					error: function (err) {
-						// Do things when submission has an error.
-						alert("An error has occured!");
-					}
-				});
-			});
-		});
-		</script>
+            {%- if section.settings.newsletter_title != blank -%}
+              <h2 class="heading h1">{{ section.settings.newsletter_title | escape }}</h2>
+            {%- endif -%}
+
+            {%- if section.settings.newsletter_content != blank -%}
+              <div class="rte">
+                {{ section.settings.newsletter_content }}
+              </div>
+            {%- endif -%}
+
+            {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
+
+            <div class="newsletter">
+              {%- form 'customer', id: newsletter_id, class: 'form newsletter__form' -%}
+                {%- if form.posted_successfully? -%}
+                  <p class="alert alert--success alert--center">{{ 'home_page.newsletter.success' | t }}</p>
+                  {%- if form.context == 'announcement-bar' -%}
+                    
+                  {%- endif -%}
+                {%- else -%}
+                  {%- if form.errors -%}
+                    <p class="alert alert--error">{{ form.errors.messages['email'] }}</p>
+                  {%- endif -%}
+
+                  <input type="hidden" name="contact[tags]" value="newsletter">
+                  <input type="hidden" name="contact[context]" value="announcement-bar">
+
+                  <div class="form__input-row">
+                    <div class="form__input-wrapper form__input-wrapper--labelled">
+                      <input type="email" id="announcement[contact][email]" name="contact[email]" class="form__field form__field--text" autofocus required>
+                      <label for="announcement[contact][email]" class="form__floating-label">{{ 'home_page.newsletter.input' | t }}</label>
+                    </div>
+
+                    <button type="submit" class="form__submit button button--primary">{{ 'home_page.newsletter.submit' | t }}</button>
+                  </div>
+                {%- endif -%}
+              {%- endform -%}
+            </div>
           </div>
         </div>
       </div>
