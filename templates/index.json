@@ -6,8 +6,8 @@
         "53b9c7e0-144a-4ddc-b033-4c630004361b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TPR_OtherWorlds_0822_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/TPR_OtherWorlds_0822_750-1100.jpg",
+            "image": "shopify:\/\/shop_images\/VomitForth_NortheasternDeprivation_1022_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/VomitForth_NortheasternDeprivation_1022_750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -57,7 +57,7 @@
         "efb4d623-b806-4488-a2c7-ea7ac756f98d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TheOffering_StE_0922_770-545.jpg",
+            "image": "shopify:\/\/shop_images\/TheOffering_StE_0922_2160-720.jpg",
             "mobile_image": "shopify:\/\/shop_images\/TheOffering_StE_0922_750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
@@ -74,8 +74,8 @@
         "7b9c0ef7-fe8b-475d-b05a-00d63668d99a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OrphanedLand_Mabool_0822_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/OrphanedLand_Mabool_0822_750-1100.jpg",
+            "image": "shopify:\/\/shop_images\/Necrophobic_SpawnedByEvil_1022_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Necrophobic_SpawnedByEvil_1022_750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -85,7 +85,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Orphaned+Land&sort_by=created-descending"
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Necrophobic&sort_by=created-descending"
           }
         },
         "cdb2896d-9e51-4caf-866f-94bb08e2f01e": {
