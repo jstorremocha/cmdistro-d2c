@@ -128,7 +128,7 @@
         "collection": "pre-order",
         "title": "Pre Order",
         "products_count": 16,
-        "layout": "horizontal",
+        "layout": "vertical",
         "stack_products": true,
         "show_quick_buy": true,
         "link_title": "View all",
