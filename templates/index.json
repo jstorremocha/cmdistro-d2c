@@ -23,8 +23,8 @@
         "b8603db9-3ad2-4a29-840b-ec172b338979": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Voivod_Ultraman_0922_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Voivod_Ultraman_0922_750-1100.jpg",
+            "image": "shopify:\/\/shop_images\/Insomnium_Anno1696_1122_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Insomnium_Anno1696_1122_750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -34,7 +34,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Voivod&sort_by=created-descending"
+            "link": "https:\/\/www.cmdistro.de\/collections\/insomnium?sort_by=created-descending"
           }
         },
         "14c84992-bcfa-4dac-9edb-650eaf36b382": {
