@@ -102,8 +102,8 @@
         "14c84992-bcfa-4dac-9edb-650eaf36b382": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Distant_Heritage_1222_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Distant_Heritage_1222_750-1100.jpg",
+            "image": "shopify:\/\/shop_images\/JesusPiece_SoUnknown_0123_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/JesusPiece_SoUnknown_0123_750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -113,7 +113,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Distant&sort_by=created-descending"
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Jesus+Piece&sort_by=created-descending"
           }
         }
       },
