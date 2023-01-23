@@ -24,10 +24,43 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "15c34201-3919-47a1-8d23-850e6005d8ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14815569936443__15c34201-3919-47a1-8d23-850e6005d8ae-16744863700812d004-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OvSulfur_TheBurdenOfFaith_0123_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/OvSulfur_TheBurdenOfFaith_0123_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 0,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14815569936443__15c34201-3919-47a1-8d23-850e6005d8ae-16744863700812d004-0"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "medium",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
     }
   },
   "order": [
     "main",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "15c34201-3919-47a1-8d23-850e6005d8ae"
   ]
 }
