@@ -183,6 +183,23 @@
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Distant&sort_by=created-descending"
           }
+        },
+        "49ee2ab2-abc3-4897-b34d-5894154688c3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SuicideSilence_Remember_1222_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SuicideSilence_Remember_1222_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Suicide+Silence&sort_by=created-descending"
+          }
         }
       },
       "block_order": [
@@ -195,7 +212,8 @@
         "14c84992-bcfa-4dac-9edb-650eaf36b382",
         "cb82cede-26ea-490b-8b0b-8786f2e96ff0",
         "f5299873-2060-4da5-8486-fe0d6eaa56b0",
-        "a59137e5-eac8-477b-9730-cd4e88abfa4f"
+        "a59137e5-eac8-477b-9730-cd4e88abfa4f",
+        "49ee2ab2-abc3-4897-b34d-5894154688c3"
       ],
       "settings": {
         "edge_to_edge": false,
