@@ -115,6 +115,23 @@
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Grave+Pleasures&sort_by=created-descending"
           }
+        },
+        "d0931cc7-13f4-48e3-90f1-c06106a24ca4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Enforced_WarRemains_0123_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Enforced_WarRemains_0123_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Enforced&sort_by=created-descending"
+          }
         }
       },
       "block_order": [
@@ -123,7 +140,8 @@
         "060e519f-71f2-47d1-9774-297e1178af0d",
         "efb4d623-b806-4488-a2c7-ea7ac756f98d",
         "14c84992-bcfa-4dac-9edb-650eaf36b382",
-        "cb82cede-26ea-490b-8b0b-8786f2e96ff0"
+        "cb82cede-26ea-490b-8b0b-8786f2e96ff0",
+        "d0931cc7-13f4-48e3-90f1-c06106a24ca4"
       ],
       "settings": {
         "edge_to_edge": false,
