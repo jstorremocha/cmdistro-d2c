@@ -14,6 +14,23 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "9ae6ab61-ed94-48e6-92a9-7f36156e271b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ArchEnemy_BlackEarth-Stigmata_0223_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/ArchEnemy_BlackEarth-Stigmata_0223_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        },
         "a59137e5-eac8-477b-9730-cd4e88abfa4f": {
           "type": "image",
           "settings": {
@@ -200,26 +217,10 @@
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Suicide+Silence&sort_by=created-descending"
           }
-        },
-        "9ae6ab61-ed94-48e6-92a9-7f36156e271b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ArchEnemy_BlackEarth-Stigmata_0223_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/ArchEnemy_BlackEarth-Stigmata_0223_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "9ae6ab61-ed94-48e6-92a9-7f36156e271b",
         "a59137e5-eac8-477b-9730-cd4e88abfa4f",
         "a06fcaab-8821-404c-b2b0-85eae77c9cc0",
         "d0931cc7-13f4-48e3-90f1-c06106a24ca4",
@@ -230,8 +231,7 @@
         "efb4d623-b806-4488-a2c7-ea7ac756f98d",
         "14c84992-bcfa-4dac-9edb-650eaf36b382",
         "cb82cede-26ea-490b-8b0b-8786f2e96ff0",
-        "49ee2ab2-abc3-4897-b34d-5894154688c3",
-        "9ae6ab61-ed94-48e6-92a9-7f36156e271b"
+        "49ee2ab2-abc3-4897-b34d-5894154688c3"
       ],
       "settings": {
         "edge_to_edge": false,
