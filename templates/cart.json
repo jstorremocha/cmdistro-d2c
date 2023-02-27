@@ -6,9 +6,9 @@
         "d56b3ed7-7664-48f9-8ffd-2ff115c48bc9": {
           "type": "trust",
           "settings": {
-            "icon": "bi-delivery",
+            "icon": "bi-alert",
             "title": "About P.O. Boxes and Packing Stations",
-            "content": "<p>Short conWe do not deliver to P.O. Boxes and packing stations per default. Please let us know via <a href=\"mailto:%20shop@cmdistro.de\">Email <\/a>\/<a href=\"https:\/\/www.cmdistro.de\/pages\/contact\" title=\"Contact Form\">Contact Form<\/a>in case you prefer such a delivery.tent about your store<\/p>"
+            "content": "<p><strong>We do not <\/strong>deliver to <em>P.O. Boxes<\/em> and <em>packing stations<\/em> per default. Please let us know via <a href=\"mailto:%20shop@cmdistro.de\">Email <\/a>\/<a href=\"https:\/\/www.cmdistro.de\/pages\/contact\" title=\"Contact Form\">Contact Form<\/a>in case you prefer such a delivery.<\/p>"
           }
         }
       },
