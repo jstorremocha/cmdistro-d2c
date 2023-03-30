@@ -3,7 +3,7 @@
   "autoPlay": {{ section.settings.autoplay | json }},
   "prevNextButtons": false,
   "pageDots": {% if section.blocks.size > 1 %}false{% else %}false{% endif %},
-  "setGallerySize": {% if section.settings.section_size == 'preserve_ratio' %}false{% else %}false{% endif %},
+  "setGallerySize": {% if section.settings.section_size == 'preserve_ratio' %}true{% else %}true{% endif %},
   "adaptiveHeight": {% if section.settings.section_size == 'preserve_ratio' %}true{% else %}true{% endif %},
   "transitionEffect": {{ section.settings.carousel_effect | json }},
   "cycleSpeed": {{ section.settings.cycle_speed | times: 1000 | json }}
