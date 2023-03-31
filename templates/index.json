@@ -14,6 +14,23 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ArchEnemy_BurningBridges-WagesOfSin_0323_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/ArchEnemy_BurningBridges-WagesOfSin_0323_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Arch+Enemy&sort_by=created-descending"
+          }
+        },
         "a59137e5-eac8-477b-9730-cd4e88abfa4f": {
           "type": "image",
           "settings": {
@@ -82,23 +99,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Tribulation&sort_by=created-descending"
           }
         },
-        "9a0bcd06-84db-4815-9a08-674092b55466": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Afflicted_ReReleases_0123_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Afflicted_ReReleases_0123_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Afflicted&sort_by=created-descending"
-          }
-        },
         "53b9c7e0-144a-4ddc-b033-4c630004361b": {
           "type": "image",
           "settings": {
@@ -114,23 +114,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Ov+Sulfur&sort_by=created-descending"
-          }
-        },
-        "efb4d623-b806-4488-a2c7-ea7ac756f98d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NightDemon_Outsider_0123_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/NightDemon_Outsider_0123_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Night+Demon&sort_by=created-descending"
           }
         },
         "14c84992-bcfa-4dac-9edb-650eaf36b382": {
@@ -167,11 +150,11 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Grave+Pleasures&sort_by=created-descending"
           }
         },
-        "49ee2ab2-abc3-4897-b34d-5894154688c3": {
+        "44c1cb52-1554-4ae2-85b0-35be190a27f5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SuicideSilence_Remember_1222_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/SuicideSilence_Remember_1222_750-1100.jpg",
+            "image": "shopify:\/\/shop_images\/Unearth_TheWretched_0323_2160-720_1db3ecc6-ca0f-4463-b86b-28f92fb0424d.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Unearth_TheWretched_0323_750-1100_7884835d-1ae0-4f89-a46a-30488eac95fa.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -181,39 +164,20 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Suicide+Silence&sort_by=created-descending"
-          }
-        },
-        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ArchEnemy_BurningBridges-WagesOfSin_0323_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/ArchEnemy_BurningBridges-WagesOfSin_0323_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Arch+Enemy&sort_by=created-descending"
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Unearth&sort_by=created-descending"
           }
         }
       },
       "block_order": [
+        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0",
         "a59137e5-eac8-477b-9730-cd4e88abfa4f",
         "a06fcaab-8821-404c-b2b0-85eae77c9cc0",
         "d0931cc7-13f4-48e3-90f1-c06106a24ca4",
         "b8603db9-3ad2-4a29-840b-ec172b338979",
-        "9a0bcd06-84db-4815-9a08-674092b55466",
         "53b9c7e0-144a-4ddc-b033-4c630004361b",
-        "efb4d623-b806-4488-a2c7-ea7ac756f98d",
         "14c84992-bcfa-4dac-9edb-650eaf36b382",
         "cb82cede-26ea-490b-8b0b-8786f2e96ff0",
-        "49ee2ab2-abc3-4897-b34d-5894154688c3",
-        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0"
+        "44c1cb52-1554-4ae2-85b0-35be190a27f5"
       ],
       "settings": {
         "edge_to_edge": false,
