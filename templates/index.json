@@ -155,8 +155,8 @@
         "44c1cb52-1554-4ae2-85b0-35be190a27f5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Unearth_TheWretched_0323_2160-720_1db3ecc6-ca0f-4463-b86b-28f92fb0424d.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Unearth_TheWretched_0323_750-1100_7884835d-1ae0-4f89-a46a-30488eac95fa.jpg",
+            "image": "shopify:\/\/shop_images\/ArchEnemy_RiseOf-KhaosLegions_0523_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/ArchEnemy_RiseOf-KhaosLegions_0523_750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -166,7 +166,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Unearth&sort_by=created-descending"
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Arch+Enemy&sort_by=created-descending"
           }
         }
       },
