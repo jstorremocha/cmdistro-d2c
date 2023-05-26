@@ -14,6 +14,23 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "a06fcaab-8821-404c-b2b0-85eae77c9cc0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SotS_AmongstTheLowAndEmpty_0523_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SotS_AmongstTheLowAndEmpty_0523_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Signs+Of+The+Swarm&sort_by=created-descending"
+          }
+        },
         "b8603db9-3ad2-4a29-840b-ec172b338979": {
           "type": "image",
           "settings": {
@@ -149,26 +166,10 @@
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Arch+Enemy&sort_by=created-descending"
           }
-        },
-        "a06fcaab-8821-404c-b2b0-85eae77c9cc0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FrozenSoul_GlacialDomination_0223_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/FrozenSoul_GlacialDomination_0223_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Frozen+Soul&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "a06fcaab-8821-404c-b2b0-85eae77c9cc0",
         "b8603db9-3ad2-4a29-840b-ec172b338979",
         "53b9c7e0-144a-4ddc-b033-4c630004361b",
         "44c1cb52-1554-4ae2-85b0-35be190a27f5",
@@ -176,8 +177,7 @@
         "cb82cede-26ea-490b-8b0b-8786f2e96ff0",
         "53c77295-fb01-49b9-b894-4c1718c5d164",
         "a59137e5-eac8-477b-9730-cd4e88abfa4f",
-        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0",
-        "a06fcaab-8821-404c-b2b0-85eae77c9cc0"
+        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0"
       ],
       "settings": {
         "edge_to_edge": false,
