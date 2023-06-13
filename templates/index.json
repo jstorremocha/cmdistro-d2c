@@ -444,61 +444,20 @@
     },
     "collection-list": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
-        "collection-2": {
+        "e2509694-1013-453a-928f-4002f3bf1c94": {
           "type": "collection",
           "settings": {
-            "collection": "angelus-apatrida",
-            "link": ""
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "at-the-gates",
-            "link": ""
-          }
-        },
-        "collection-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "dark-tranquillity",
-            "link": ""
-          }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "insomnium",
-            "link": ""
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "collection": "napalm-death",
-            "link": ""
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "omnium-gatherum",
+            "collection": "five-from-the-hive-cd-bundles",
             "link": ""
           }
         }
       },
       "block_order": [
-        "collection-2",
-        "collection-3",
-        "collection-5",
-        "collection-4",
-        "collection-6",
-        "collection-1"
+        "e2509694-1013-453a-928f-4002f3bf1c94"
       ],
       "settings": {
-        "title": "Featured Artists",
+        "title": "Specials",
         "link_title": "View all",
         "link": "",
         "round_images": false,
