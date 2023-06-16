@@ -166,6 +166,23 @@
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Arch+Enemy&sort_by=created-descending"
           }
+        },
+        "cdcd9735-7116-48c9-9af6-0830d10c76c3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SpiritAdrift_GhostAtTheGallows_0623_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SpiritAdrift_GhostAtTheGallows_0623_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 0,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Spirit+Adrift&sort_by=created-descending"
+          }
         }
       },
       "block_order": [
@@ -177,7 +194,8 @@
         "cb82cede-26ea-490b-8b0b-8786f2e96ff0",
         "53c77295-fb01-49b9-b894-4c1718c5d164",
         "a59137e5-eac8-477b-9730-cd4e88abfa4f",
-        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0"
+        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0",
+        "cdcd9735-7116-48c9-9af6-0830d10c76c3"
       ],
       "settings": {
         "edge_to_edge": false,
