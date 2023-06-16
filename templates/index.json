@@ -183,6 +183,22 @@
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Baest&sort_by=created-descending"
           }
+        },
+        "e8d2dd42-4a9f-4468-ba07-99fbbc568e91": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/five-from-the-hive-cd-bundles"
+          }
         }
       },
       "block_order": [
@@ -195,7 +211,8 @@
         "d0931cc7-13f4-48e3-90f1-c06106a24ca4",
         "cb82cede-26ea-490b-8b0b-8786f2e96ff0",
         "53c77295-fb01-49b9-b894-4c1718c5d164",
-        "a59137e5-eac8-477b-9730-cd4e88abfa4f"
+        "a59137e5-eac8-477b-9730-cd4e88abfa4f",
+        "e8d2dd42-4a9f-4468-ba07-99fbbc568e91"
       ],
       "settings": {
         "edge_to_edge": false,
