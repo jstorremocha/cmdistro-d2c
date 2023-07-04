@@ -14,6 +14,23 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "7e7807d2-c3e8-49e5-893c-95de3bda3d6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3Teeth_EndEx_0623_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/3Teeth_EndEx_0623_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=3TEETH&sort_by=created-descending"
+          }
+        },
         "53c77295-fb01-49b9-b894-4c1718c5d164": {
           "type": "image",
           "settings": {
@@ -202,6 +219,7 @@
         }
       },
       "block_order": [
+        "7e7807d2-c3e8-49e5-893c-95de3bda3d6b",
         "53c77295-fb01-49b9-b894-4c1718c5d164",
         "44c1cb52-1554-4ae2-85b0-35be190a27f5",
         "cdcd9735-7116-48c9-9af6-0830d10c76c3",
