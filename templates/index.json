@@ -167,40 +167,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Naglfar&sort_by=created-descending"
           }
         },
-        "cb82cede-26ea-490b-8b0b-8786f2e96ff0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DemolitionHammer_Tortured_Epidemic_0423_2160-720_c229fd69-cca8-40e3-a3b1-1062c9b48488.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/DemolitionHammer_Tortured_Epidemic_0423_750-1100_f8851dda-382f-4b70-9848-70b96b13bdeb.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Demolition+Hammer&sort_by=created-descending"
-          }
-        },
-        "a59137e5-eac8-477b-9730-cd4e88abfa4f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Baest_DanseMacabre_0423_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Baest_DanseMacabre_0423_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Baest&sort_by=created-descending"
-          }
-        },
         "e8d2dd42-4a9f-4468-ba07-99fbbc568e91": {
           "type": "image",
           "settings": {
@@ -216,6 +182,23 @@
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/five-from-the-hive-cd-bundles"
           }
+        },
+        "fa72022a-5531-4d98-aecd-63c755ef3868": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mayhem_Daemonic_0723_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mayhem_Daemonic_0723_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Mayhem&sort_by=created-descending"
+          }
         }
       },
       "block_order": [
@@ -228,9 +211,8 @@
         "b8603db9-3ad2-4a29-840b-ec172b338979",
         "53b9c7e0-144a-4ddc-b033-4c630004361b",
         "d0931cc7-13f4-48e3-90f1-c06106a24ca4",
-        "cb82cede-26ea-490b-8b0b-8786f2e96ff0",
-        "a59137e5-eac8-477b-9730-cd4e88abfa4f",
-        "e8d2dd42-4a9f-4468-ba07-99fbbc568e91"
+        "e8d2dd42-4a9f-4468-ba07-99fbbc568e91",
+        "fa72022a-5531-4d98-aecd-63c755ef3868"
       ],
       "settings": {
         "edge_to_edge": false,
