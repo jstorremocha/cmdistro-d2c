@@ -199,6 +199,23 @@
             "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Mayhem&sort_by=created-descending"
           }
+        },
+        "c0ec6af7-ac62-4bf8-88a1-7ee50ed9ccdf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Malevolence_ReignOf_0723_2160-720.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Malevolence_ReignOf_0723_750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Malevolence"
+          }
         }
       },
       "block_order": [
@@ -212,7 +229,8 @@
         "53b9c7e0-144a-4ddc-b033-4c630004361b",
         "d0931cc7-13f4-48e3-90f1-c06106a24ca4",
         "e8d2dd42-4a9f-4468-ba07-99fbbc568e91",
-        "fa72022a-5531-4d98-aecd-63c755ef3868"
+        "fa72022a-5531-4d98-aecd-63c755ef3868",
+        "c0ec6af7-ac62-4bf8-88a1-7ee50ed9ccdf"
       ],
       "settings": {
         "edge_to_edge": false,
