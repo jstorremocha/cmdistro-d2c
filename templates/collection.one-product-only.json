@@ -1,5 +1,22 @@
 {
   "sections": {
+    "b27a382d-a650-493b-8aca-b5cffead0b79": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "来世は偉人",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "image": "shopify:\/\/shop_images\/HANABIE_RebornSuperstar.jpg",
+        "background": "#efd1e2",
+        "text_color": "#ffffff",
+        "title": "",
+        "content": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#ffffff",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "disabled": true,
@@ -21,6 +38,7 @@
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "title": "Recently viewed",
         "show_quick_buy": false
@@ -79,29 +97,12 @@
         "zoom_effect": "outside",
         "carousel_effect": "fade"
       }
-    },
-    "b27a382d-a650-493b-8aca-b5cffead0b79": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "来世は偉人",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "image": "shopify:\/\/shop_images\/HANABIE_RebornSuperstar.jpg",
-        "background": "#efd1e2",
-        "text_color": "#ffffff",
-        "title": "",
-        "content": "",
-        "button_background": "#ffffff",
-        "button_text_color": "#ffffff",
-        "button_text": "",
-        "button_link": ""
-      }
     }
   },
   "order": [
+    "b27a382d-a650-493b-8aca-b5cffead0b79",
     "main",
     "recently-viewed-products",
-    "01364675-9be8-4e5b-bf9b-6a58070b5702",
-    "b27a382d-a650-493b-8aca-b5cffead0b79"
+    "01364675-9be8-4e5b-bf9b-6a58070b5702"
   ]
 }
