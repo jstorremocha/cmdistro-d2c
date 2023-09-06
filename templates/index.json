@@ -504,10 +504,19 @@
             "collection": "five-from-the-hive-cd-bundles",
             "link": ""
           }
+        },
+        "70f01c09-f5e7-4e04-bb51-7e12261015c4": {
+          "type": "collection",
+          "settings": {
+            "collection": "judas-priest-firepower-tour-edition",
+            "image": "shopify:\/\/shop_images\/judas-priest-mock-up-tour-edition.jpg",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "e2509694-1013-453a-928f-4002f3bf1c94"
+        "e2509694-1013-453a-928f-4002f3bf1c94",
+        "70f01c09-f5e7-4e04-bb51-7e12261015c4"
       ],
       "settings": {
         "title": "Specials",
