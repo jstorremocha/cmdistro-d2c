@@ -135,6 +135,7 @@
         },
         "53b9c7e0-144a-4ddc-b033-4c630004361b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Nasty_HeartbreakCriminals_0723_2160-720.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Nasty_HeartbreakCriminals_0723_750-1100.jpg",
@@ -152,6 +153,7 @@
         },
         "fa72022a-5531-4d98-aecd-63c755ef3868": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mayhem_Daemonic_0723_2160-720.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Mayhem_Daemonic_0723_750-1100.jpg",
@@ -169,6 +171,7 @@
         },
         "c0ec6af7-ac62-4bf8-88a1-7ee50ed9ccdf": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Malevolence_ReignOf_0723_2160-720.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Malevolence_ReignOf_0723_750-1100.jpg",
@@ -186,6 +189,7 @@
         },
         "7e7807d2-c3e8-49e5-893c-95de3bda3d6b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/3Teeth_EndEx_0623_2160-720.jpg",
             "mobile_image": "shopify:\/\/shop_images\/3Teeth_EndEx_0623_750-1100.jpg",
@@ -203,6 +207,7 @@
         },
         "53c77295-fb01-49b9-b894-4c1718c5d164": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Marduk_MementoMori_0623_2160-720.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Marduk_MementoMori_0623_750-1100.jpg",
