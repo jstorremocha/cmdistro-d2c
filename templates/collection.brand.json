@@ -41,7 +41,7 @@
         "template--14815569707067__46338822-9410-46bb-b9ee-de365b10d376-image-2"
       ],
       "settings": {
-        "edge_to_edge": true,
+        "edge_to_edge": false,
         "section_size": "small",
         "carousel_effect": "slide",
         "autoplay": true,
