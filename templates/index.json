@@ -465,6 +465,19 @@
         "link_url": ""
       }
     },
+    "de2c2d84-f1ad-49e5-ad84-9ef840c1f747": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "midprice-blowout",
+        "title": "Midprice Blowout",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "featured-products": {
       "type": "featured-collection",
       "settings": {
@@ -524,6 +537,7 @@
     "slideshow",
     "f2af40f5-1458-4998-a36a-9e89ab416c98",
     "featured-collection",
+    "de2c2d84-f1ad-49e5-ad84-9ef840c1f747",
     "featured-products",
     "collection-list",
     "newsletter"
