@@ -68,13 +68,13 @@
         "40cca8b5-2dd7-460e-9970-7990da522647": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ulver_2LPs_1123_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Ulver_2LPs_1123_750-1100.jpg",
+            "image": "shopify:\/\/shop_images\/Ulver_2LPs_1123_2160-720_ceff0a00-9846-4b15-95cb-286f0e27ed83.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Ulver_2LPs_1123_750-1100_32ba091f-da4c-483f-ade2-07e68bff50c4.jpg",
             "show_overlay": true,
-            "overlay_opacity": 83,
+            "overlay_opacity": 0,
             "text_color": "#ffffff",
-            "title": "ATTENTION!",
-            "content": "Due to production issues the vinyl color of Kveldssanger Sun Yellow had to be changed to Transparent Petrol Green on short notice!",
+            "title": "",
+            "content": "",
             "content_position": "bottom_right",
             "button_background": "#eeeeee",
             "button_text_color": "#000000",
@@ -472,8 +472,8 @@
         "title": "Midprice Blowout",
         "products_count": 12,
         "layout": "vertical",
-        "stack_products": true,
-        "show_quick_buy": true,
+        "stack_products": false,
+        "show_quick_buy": false,
         "link_title": "View all",
         "link_url": ""
       }
