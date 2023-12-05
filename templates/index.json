@@ -472,8 +472,8 @@
         "title": "Midprice Blowout",
         "products_count": 12,
         "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
+        "stack_products": true,
+        "show_quick_buy": true,
         "link_title": "View all",
         "link_url": ""
       }
