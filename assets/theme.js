@@ -322,7 +322,7 @@
   }();
 
   /**
-   * Various DOM helper
+   * Various DOM helper Test
    */
   var Dom = /*#__PURE__*/function () {
     function Dom() {
